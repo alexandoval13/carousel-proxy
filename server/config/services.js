@@ -42,23 +42,23 @@
 
 module.exports = {
   service1: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3001',
-    bundle: 'app.js',
+    api: ['/carousel-module/photos/:id'],
+    url: 'http://13.57.185.148:3003', // http://13.57.185.148:3003/carousel-module/1
+    bundle: 'bundle.js',
   },
   service2: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    api: ['/reservation/reservationCost', '/reservation/calendar'],
+    url: 'http://18.219.68.43:3001', // http://18.219.68.43:3001/listing/2
+    bundle: 'bundle.js',
   },
   service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
+    api: ['/reviews-module/reviews/:id', '/reviews-module/ratings/:id'],
+    url: 'http://18.223.97.190:3006', // http://18.223.97.190:3006/
+    bundle: 'bundle.js',
   },
   service4: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3004',
-    bundle: 'app.js',
+    api: ['/more/listings/:id', '/more/users/:id/favorites'],
+    url: 'http://ec2-54-183-104-214.us-west-1.compute.amazonaws.com:3004', // http://ec2-54-183-104-214.us-west-1.compute.amazonaws.com:3004/
+    bundle: 'bundle.js',
   },
 };
