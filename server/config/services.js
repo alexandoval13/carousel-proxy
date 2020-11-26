@@ -58,7 +58,7 @@ module.exports = {
   },
   service4: {
     api: ['/more/listings/:id', '/more/users/:id/favorites'],
-    url: 'http://ec2-54-183-104-214.us-west-1.compute.amazonaws.com:3004', // http://ec2-54-183-104-214.us-west-1.compute.amazonaws.com:3004/
+    url: 'http://54.183.104.214:3004', // http://ec2-54-183-104-214.us-west-1.compute.amazonaws.com:3004/
     bundle: 'bundle.js',
   },
 };
