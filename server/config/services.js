@@ -43,22 +43,22 @@
 module.exports = {
   service1: {
     api: '/carousel-module/:id',
-    url: 'http://13.57.185.148:3003', // http://13.57.185.148:3003/carousel-module/1
+    url: 'http://localhost:3003', // http://13.57.185.148:3003/carousel-module/1 or http://localhost:3003
     bundle: 'bundle.js',
   },
   service2: {
     api: ['/reservation/reservationCost', '/reservation/calendar'],
-    url: 'http://18.219.68.43:3001', // http://18.219.68.43:3001/listing/2
+    url: 'http://localhost:3001', // http://18.219.68.43:3001/listing/2 or http://localhost:3001/
     bundle: 'bundle.js',
   },
   service3: {
     api: ['/reviews-module/reviews/:id', '/reviews-module/ratings/:id'],
-    url: 'http://18.223.97.190:3006', // http://18.223.97.190:3006/
+    url: 'http://localhost:3006', // http://18.223.97.190:3006/ or http://localhost:3006
     bundle: 'bundle.js',
   },
   service4: {
     api: ['/more/listings/:id', '/more/users/:id/favorites'],
-    url: 'http://54.183.104.214:3004', // http://ec2-54-183-104-214.us-west-1.compute.amazonaws.com:3004/
+    url: 'http://localhost:3004', // http://ec2-54-183-104-214.us-west-1.compute.amazonaws.com:3004/ or http://localhost:3004
     bundle: 'bundle.js',
   },
 };
